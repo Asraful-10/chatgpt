@@ -1,0 +1,385 @@
+nav {
+    background-color: #fff;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  .logo img{
+    width: 150px;
+    height: 70px;
+  }
+  .logo a {
+    color: #333;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  li {
+    margin: 0 10px;
+  }
+  
+  a {
+    color: #333;
+    text-decoration: none;
+    font-size: 1.1em;
+    padding: 10px;
+    border-radius: 5px;
+    transition: all 0.2s ease;
+  }
+  
+  a:hover {
+    background-color: #4caf50;
+    color: #fff;
+  }
+  .hero {
+    background-image: url("hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  
+  }
+  
+  .hero-text {
+    text-align: center;
+    color: #fff;
+  }
+  
+  h1 {
+    font-size: 3.5em;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+  }
+  
+  .btn {
+    background-color: #fff;
+    color: #333;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: all 0.2s ease;
+  }
+  
+  .btn:hover {
+    background-color: #4caf50;
+    color: #fff;
+  }
+  .home {
+    background-color: #f2f2f2;
+    padding: 50px 0;
+   
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .col-6 {
+    flex-basis: calc(50% - 20px);
+    margin-bottom: 20px;
+    
+  }
+  #image-home{
+    width: 440px;
+    height: 300px;
+  }
+  h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+  }
+  
+  .btn {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: all 0.2s ease;
+  }
+  
+  .btn:hover {
+    background-color: #fff;
+    color: #4caf50;
+  }
+  .recipes {
+    padding: 50px 0;
+  }
+  
+  .recipes h2 {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .recipes .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .recipes .col-4 {
+    flex-basis: calc(33.33% - 10px);
+    margin-bottom: 20px;
+  }
+  
+  .recipes img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .recipes h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .recipes p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  .recipes .btn {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: all 0.2s ease;
+  }
+  
+  .recipes .btn:hover {
+    background-color: #fff;
+    color: #333;
+  }
+  .blog-section {
+    margin: 20px 0;
+    display: flex;
+   
+  }
+  .blog-section-h2{
+    display: block;
+    text-align: center;
+  }
+  .blog-post {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .blog-post img {
+    max-width: 100%;
+    height: 250px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .blog-post h3 {
+    margin: 0;
+    font-size: 22px;
+  }
+  
+  .post-date {
+    color: #888;
+    margin-bottom: 10px;
+  }
+  
+  .read-more {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #4caf50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 24px;
+  }
+  
+  .read-more:hover {
+    background-color: #45a049;
+  }
+  .about-section {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+  }
+  
+  .about-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .about-image img {
+    max-width: 100%;
+    width: 450px;
+    border-radius: 5px;
+  }
+  
+  .about-content {
+    flex: 1;
+    margin-left: 40px;
+  }
+  
+  .about-content h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .about-content p {
+    margin-bottom: 15px;
+    line-height: 1.5;
+  }
+  
+  .btn-contact {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .btn-contact:hover {
+    background-color: #45a049;
+  }
+  .contact-section {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+  }
+  
+  .contact-container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .contact-container h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-container p {
+    margin-bottom: 30px;
+    line-height: 1.5;
+  }
+  
+  .contact-form {
+    text-align: left;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .btn-submit {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+   
+  }    
+  .footer {
+    background-color:#000000;
+    padding: 30px;
+    color: #fff;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-column {
+    flex: 1;
+    margin-right: 30px;
+  }
+  
+  .footer h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .footer p {
+    margin-bottom: 10px;
+  }
+  
+  .social-icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  .social-icons li {
+    margin-right: 10px;
+  }
+  
+  .social-icons a {
+    color: #333;
+    font-size: 20px;
+  }
+  
+  .footer-bottom {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #777;
+  }
+  
+  
+  

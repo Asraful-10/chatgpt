@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Food Website</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <nav>
+    <div class="logo">
+      <img src="logo.webp" alt="">
+    </div>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Recipes</a></li>
+      <li><a href="#">Blog</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+  <!-- The rest of your webpage content goes here -->
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Delicious Recipes for Every Meal</h1>
+      <p>Find inspiration for your next meal with our collection of mouth-watering recipes.</p>
+      <a href="#" class="btn">Get Started</a>
+    </div>
+  </section>
+  <section class="home">
+    <div class="container">
+      <div class="row">
+        <div class="col-6">
+          <h2>Discover New Recipes</h2>
+          <p>Find inspiration for your next meal with our collection of delicious and healthy recipes.</p>
+          <a href="#" class="btn">Get Started</a>
+        </div>
+        <div class="col-6">
+          <img id="image-home" src="home-image.jpg" alt="Home Image">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="recipes">
+    <div class="container">
+      <h2>Popular Recipes</h2>
+      <div class="row">
+        <div class="col-4">
+          <img src="dK.jpg" alt="Recipe 1">
+          <h3>Spicy Chicken Stir-Fry</h3>
+          <p>A quick and easy stir-fry recipe that's packed with flavor.</p>
+          <a href="#" class="btn">View Recipe</a>
+        </div>
+        <div class="col-4">
+          <img src="UK.jpg" alt="Recipe 2">
+          <h3>Avocado Toast</h3>
+          <p>A classic breakfast recipe that's simple and delicious.</p>
+          <a href="#" class="btn">View Recipe</a>
+        </div>
+        <div class="col-4">
+          <img src="Dg.jpg" alt="Recipe 3">
+          <h3>Vegetable Curry</h3>
+          <p>A healthy and flavorful curry recipe that's perfect for vegetarians.</p>
+          <a href="#" class="btn">View Recipe</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <h2 class="blog-section-h2">Latest Blog Posts</h2>
+  <div class="blog-section">
+    <div class="blog-post">
+      <img src="98.avif" alt="Blog Post Image">
+      <h3>Post Title</h3>
+      <p class="post-date">Published on May 16, 2023</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eleifend, nisl vitae sodales euismod, ipsum
+        lectus faucibus urna, id luctus neque ligula a dui.</p>
+      <a href="post1.html" class="read-more">Read More</a>
+    </div>
+
+    <div class="blog-post">
+      <img src="100.avif" alt="Blog Post Image">
+      <h3>Post Title</h3>
+      <p class="post-date">Published on May 15, 2023</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eleifend, nisl vitae sodales euismod, ipsum
+        lectus faucibus urna, id luctus neque ligula a dui.</p>
+      <a href="post2.html" class="read-more">Read More</a>
+    </div>
+    <div class="blog-post">
+      <img src="100.avif" alt="Blog Post Image">
+      <h3>Post Title</h3>
+      <p class="post-date">Published on May 15, 2023</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eleifend, nisl vitae sodales euismod, ipsum
+        lectus faucibus urna, id luctus neque ligula a dui.</p>
+      <a href="post2.html" class="read-more">Read More</a>
+    </div>
+    <div class="blog-post">
+      <img src="100.avif" alt="Blog Post Image">
+      <h3>Post Title</h3>
+      <p class="post-date">Published on May 15, 2023</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eleifend, nisl vitae sodales euismod, ipsum
+        lectus faucibus urna, id luctus neque ligula a dui.</p>
+      <a href="post2.html" class="read-more">Read More</a>
+    </div>
+
+
+    <!-- Add more blog posts here -->
+  </div>
+
+  <section class="about-section">
+    <div class="about-container">
+      <div class="about-image">
+        <img src="about.avif" alt="About Image">
+      </div>
+      <div class="about-content">
+        <h2>About Us</h2>
+        <p>Welcome to our food website! We are passionate about delicious and nutritious meals. Our goal is to provide
+          you with mouthwatering recipes, cooking tips, and inspiration to help you create amazing dishes in your own
+          kitchen.</p>
+        <p>Whether you're a seasoned chef or just starting out, we have something for everyone. From quick and easy
+          weeknight meals to elaborate gourmet recipes, we've got you covered. Join us on this culinary journey and
+          let's explore the world of flavors together!</p>
+        <a href="contact.html" class="btn-contact">Contact Us</a>
+      </div>
+    </div>
+  </section>
+  <section class="contact-section">
+    <div class="contact-container">
+      <h2>Contact Us</h2>
+      <p>Have questions or feedback? We'd love to hear from you. Fill out the form below, and we'll get back to you as
+        soon as possible.</p>
+      <form action="#" method="POST" class="contact-form">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="btn-submit">Submit</button>
+      </form>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-column">
+        <h3>About Us : </h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet semper lectus at feugiat.</p>
+      </div>
+      <div class="footer-column">
+        <h3>Contact : </h3>
+        <p>Email: info@example.com</p>
+        <p>Phone: 123-456-7890</p>
+      </div>
+      <div class="footer-column">
+        <h3>Follow Us : </h3>
+        <ul class="social-icons">
+          <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+          <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2023 Your Food Website. All rights reserved.</p>
+    </div>
+  </footer>
+
+
+
+</body>
+
+</html>
